@@ -20,7 +20,7 @@ import java.security.SecureRandom;
 public class SecretContainer
 {
 	private static SecureRandom mRandomNumberGenerator = new SecureRandom();
-	private static final int mHeaderSize = Integer.BYTES + Integer.BYTES;
+	private static final int mHeaderSize = Integer.SIZE / Byte.SIZE + Integer.SIZE / Byte.SIZE;
 	
 	private SecretContainer() {
 	}

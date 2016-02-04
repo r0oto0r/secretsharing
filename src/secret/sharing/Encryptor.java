@@ -40,7 +40,7 @@ import org.bouncycastle.util.Arrays;
 /**
  * Class to encrypt data stream in advance
  * Algorithm used in this class is:
- * AES-128 / CBC + HMAC SHA3
+ * AES-128 / CBC + HMAC SHA256
  * Keyfactory:
  * PBKDF2 with HMAC SHA1
  * @author Benjamin Weigl
